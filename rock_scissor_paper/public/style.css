@@ -1,0 +1,18 @@
+body{
+  background-color: #fce7b3;
+  color: #1500a3;
+}
+
+.home{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+h1{
+  font-size: 50px;
+}
+
+p{
+  font-size: 30px;
+}
