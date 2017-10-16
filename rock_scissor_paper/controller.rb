@@ -6,5 +6,7 @@ require_relative('./models/game.rb')
 
 get '/:player1/:player2' do
   game = Game.new(params[:player1], params[:player2])
-  return game.get_winner()
+  # return game.get_winner()
+  @game = game.get_winner()
+  erb(:results)
 end
